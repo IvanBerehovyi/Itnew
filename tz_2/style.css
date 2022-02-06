@@ -1,0 +1,43 @@
+table {
+	border-spacing: 0;
+	padding: 0;
+}
+td {
+	text-align: center;
+	padding: 10px;
+
+	
+}
+#logo, #list, #footer {
+	background: orange;
+	
+}
+#logo {
+	border-right: solid;
+	border-bottom: solid;
+}
+#menu {
+	background: red;
+	border-bottom: solid;
+}
+#news {
+	background: #ac4c4c;
+	color: white;
+	border-right: solid black;
+	border-bottom: solid black;
+
+}
+#list {
+	border-bottom: solid;
+}
+#logo, #menu, #news, #bar, #footer, #list {
+	border-width: 1px;
+}
+#bar {
+	background: black;
+	color: white;
+	border-left: solid black;
+}
+#footer {
+	
+}
