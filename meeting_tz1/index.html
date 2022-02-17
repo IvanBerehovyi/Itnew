@@ -9,30 +9,106 @@
 <body>
 	<div class="form-wrapper">
 		<form class="">
-			<fieldset>
+			<fieldset class="qq">
 				<legend>Personal information</legend>
-				<label class="">
-					Surname: 
-					<input type="text" name="surname" autocomplete="on" required>
-				</label>	
-				<label class="">
-					Name: 
-					<input type="text" name="username" autocomplete="on" required>
-				</label>
-				<label class="">
-					How old are You?
-					<input type="text" name="age" inputmode="numeric" placeholder="12">
-				</label>
-				<label class="">
-					Full date of birth: 
-					<input type="text" name="date" inputmode="numeric" placeholder="mm/dd/yyyy">
-				</label>
-				<label class="">
-					I accept the term of the agreement 
-					<input type="checkbox" name="accept">
-				</label>
+			<div>
+					<label class="">
+						Surname: 
+						<input type="text" name="surname" autocomplete="on" required>
+					</label>
+				</div>	
+				<div>
+						<label class="">
+						Name: 
+						<input type="text" name="username" autocomplete="on" required>
+					</label>
+			</div>
+			<div>
+					<label class="">
+						How old are You?
+						<input type="text" name="age" inputmode="numeric" placeholder="12">
+					</label>
+			</div>
+			<div>
+					<label class="">
+						Full date of birth: 
+						<input type="text" name="date" inputmode="numeric" placeholder="mm/dd/yyyy">
+					</label>
+			</div>
+				<div>
+					<labl class="">
+						I accept the term of the agreement 
+						<input type="checkbox" name="accept">
+					</label>
+			</div>
 			</fieldset>
 
+			<fieldset class="qq">
+				<legend>Registration</legend>
+				<div>
+					<label class="">
+						E-mail 
+						<input type="email" name="email" autocomplete="on" required placeholder="email@example.com">
+					</label>
+			</div>
+			<div>
+					<label class="">
+						Password
+						<input type="password" name="password" autocomplete="on" required>
+					</label>
+			</div>
+			</fieldset>
+
+			<fieldset class="qq">
+				<legend>An interesting fact about you!</legend>
+				Do you have cats?		
+				<label class="">
+					<input type="radio" name="Ye">Yes
+				</label>
+				<label class="">
+					<input type="radio" name="No">No
+				</label>
+				<div>
+					<label class="">
+				What is your favorite color? 
+					<input type="color" name="black">
+				</label>
+				</div>
+				<div>
+					<label class="">
+				What time do you go to bed? 
+					<input type="time" name="time">
+					</label>
+				</div>
+				<div>
+					<label class="">
+						What are your favorite brand of cars? 
+						<textarea name="comment" rows="3" cols="3" placeholder="BMW AUDI LADA"></textarea> 
+					</label>
+				</div>
+				<div>
+					<label class="">
+						How do you rate uor work? 
+						<input type="range">
+					</label>
+				</div>
+			</fieldset>
+
+			<fieldset class="qq">
+				<legend>Additional info</legend>
+				Comments 
+				<textarea name="comment" rows="2" cols="20"></textarea>
+				<div>
+					<label class="">
+						Would you recommented us? 
+						<select name="value">
+							<option value="yes">Yes</option>
+							<option value="no">No</option>
+						</select>
+					</label>
+				</div>
+			</fieldset>
+			<input type="submit" value="sumbit">
 		</form>
 	</div>
 </body>

@@ -1,3 +1,10 @@
 .form-wrapper {
 	border: 1px solid black;
+	width: 1000px;
+	height: 700px;
+}
+.qq {
+	padding-top: 25px;
+	margin: 10px;
+	
 }
