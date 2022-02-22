@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    border: 1px solid;
+}
+
+.container__image {
+    border: 1px solid;
+    width: 450px;
+    height: 600px;
+    width: 100%;
+
+}
+
+.container__information{
+    position: absolute;
+/*    width: 19.5%;*/
+    top: 70%;
+    left: 120px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+      color: white;
+  }
+
+.container__header{
+    position: absolute;
+    left: 550px;
+    bottom: 80%;
+}
+
+.container__header-text{
+    color: #666666;
+}
+
+
+.container__body-information{
+    position: absolute;
+    left: 550px;
+    bottom: 78%;
+}
+
+.container__body-information-main{
+    position: absolute;
+    left: 550px;
+    bottom: 68%;
+}
+
+.container__body-information-goals-needs{
+    position: absolute;
+    left: 550px;
+    bottom: 58%;
+}
+
+.container__body-information-second{
+    position: absolute;
+    left: 550px;
+    bottom: 48%;
+}
+
+.container__body-information-hesitations{
+    position: absolute;
+    left: 550px;
+    bottom: 40%;
+}
+
+.container__body-information-third{
+    position: absolute;
+    left: 550px;
+    bottom: 28%;
+}
